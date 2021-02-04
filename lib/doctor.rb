@@ -16,19 +16,18 @@ class Doctor
     @@all
   end
 
+  def new_appointment(date, patient)
+    Appointment.new(date, patient, self)
+  end
+
   def appointments
     Appointment.all.select do |appt|
       appt.doctor == self
     end
   end
 
-  def new_appointment(date, patient)
-    Appointment.new(date, patient, self)
-  end
-  #   Song.all.select do |song|
-  #     song.genre == self
-  #   end
-  # end
+
+
 
   # def artists
   #   songs.map do |song|
