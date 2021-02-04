@@ -27,7 +27,7 @@ class Patient
   end
 
 
-  
+
 
   # def artists
   #   songs.map do |song|
