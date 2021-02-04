@@ -22,8 +22,8 @@ class Doctor
     end
   end
 
-  def new_appointment
-    Appointment.new(date, patient)
+  def new_appointment(date, patient)
+    Appointment.new(date, patient, self)
   end
   #   Song.all.select do |song|
   #     song.genre == self
