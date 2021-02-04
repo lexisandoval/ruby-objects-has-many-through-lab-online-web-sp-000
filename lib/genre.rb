@@ -16,4 +16,12 @@ class Genre
     @@all
   end
 
+  def songs
+
+  end
+
+  def artists
+
+  end
+
 end
