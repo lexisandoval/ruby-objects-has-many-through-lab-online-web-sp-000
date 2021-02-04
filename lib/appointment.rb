@@ -18,15 +18,4 @@ class Appointment
     @@all
   end
 
-
-  # def appointments
-  #   Appointments.all.select do |appt|
-  #     appt.doctor == self
-  #   end
-  # end
-  #
-  # def new_appointment(date, patient)
-  #   Appointment.new(date, patient, self)
-  # end
-
 end
